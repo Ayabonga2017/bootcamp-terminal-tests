@@ -1,5 +1,5 @@
-var assert = require("assert");
-var isFromCapeTown = require("../isFromCapeTown");
+let assert = require("assert");
+let isFromCapeTown = require("../isFromCapeTown");
 
 describe('isFromCapeTown function', function(){
   it('should return registration that isFromCapeTown', function(){

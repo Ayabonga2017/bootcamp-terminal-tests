@@ -1,5 +1,5 @@
-var assert = require("assert");
-var transportFee = require("../transportFee");
+let assert = require("assert");
+let transportFee = require("../transportFee");
 
 
 describe('transportFee function', function(){

@@ -1,6 +1,6 @@
 
-var assert = require("assert");
-var countRegNumbers = require("../countRegNumbers");
+let assert = require("assert");
+let countRegNumbers = require("../countRegNumbers");
 
 describe('countRegNumbers function', function(){
 

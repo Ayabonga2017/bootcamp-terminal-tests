@@ -1,5 +1,5 @@
-var assert = require("assert");
-var regCheck = require("../regCheck");
+let assert = require("assert");
+let regCheck = require("../regCheck");
 
 describe('regCheck function', function(){
 

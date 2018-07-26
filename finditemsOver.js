@@ -1,7 +1,7 @@
 module.exports =function (itemList,threshold){
 
-  var fruit = [];
-  for(var k=0; k<itemList.length; k++)
+  let fruit = [];
+  for(let k=0; k<itemList.length; k++)
   {
     if(itemList[k].qty > threshold)
     {

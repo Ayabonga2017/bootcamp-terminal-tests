@@ -1,8 +1,8 @@
 module.exports = function (registration){
-  var regN=registration.split(", ");
-  var regstartingwithCJ= [];
+  let regN=registration.split(", ");
+  let regstartingwithCJ= [];
 
-  for (var i=0;i<regN.length;i++){
+  for (let i=0;i<regN.length;i++){
     if(regN[i].startsWith("CJ")){
        regstartingwithCJ.push(regN[i])
 

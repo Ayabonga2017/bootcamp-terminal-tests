@@ -1,5 +1,5 @@
-var assert = require("assert");
-var yearsAgo = require("../yearsAgo");
+let assert = require("assert");
+let yearsAgo = require("../yearsAgo");
 
 describe('yearsAgo function  returns how many years ago that was', function(){
 
